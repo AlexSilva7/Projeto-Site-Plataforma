@@ -1,0 +1,73 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    background: black url(../imagens/corpo1.png) right no-repeat;
+    color:white;
+    height: 650px;
+    opacity: 0.9;
+}
+
+#info h4{
+    font-size: 2em;
+    border-bottom: 1px solid rgb(73, 72, 72);
+}
+
+#saiba p{
+    font-size: 1.5em;
+}
+
+#saiba{
+    border-bottom: 1px solid rgb(226, 224, 224);
+}
+
+#depoimentos{
+    background: white url(../imagens/depoimentos.png) center no-repeat;
+    height: 650px;
+}
+
+footer{
+    border-top:  1px solid rgb(226, 224, 224);
+    background: black;
+    opacity: 0.97;
+
+}
+
+footer i{
+    font-size: 1.5em;
+}
+
+footer p{
+    font-size: 1.2em;
+}
+/*
+@media (max-width: 575.98px) {
+
+    #logo img{
+        height: 120px;
+    }
+
+    #navegacao ul li a{
+        font-size: 0.7em;
+        width: 100px;
+    }
+
+    .introducao{
+        margin-top: 30px;
+        font-size: 0.4em;
+    }
+
+    .empresa {
+        background-image: url(../imagens/corpo2-escrita-mobile.png);
+    }
+
+    #formulario-contato{
+        width: 100%;
+        margin: 30px auto;
+    }
+
+}
+*/
