@@ -11,6 +11,14 @@ header{
     opacity: 0.9;
 }
 
+header #nav-principal a{
+    font-size: 1.2em;
+}
+
+header #nav-principal a:hover{
+    border-bottom: 1px solid purple;
+}
+
 #info h4{
     font-size: 2em;
     border-bottom: 1px solid rgb(73, 72, 72);
@@ -24,17 +32,18 @@ header{
     border-bottom: 1px solid rgb(226, 224, 224);
 }
 
-#depoimentos{
-    background: white url(../imagens/depoimentos.png) center no-repeat;
-    height: 650px;
+#depoimentos h4{
+    font-size: 1.4em;
+    text-align: center;
 }
+
 
 footer{
-    border-top:  1px solid rgb(226, 224, 224);
-    background: black;
+    background: white;
     opacity: 0.97;
-
 }
+
+
 
 footer i{
     font-size: 1.5em;
@@ -43,6 +52,8 @@ footer i{
 footer p{
     font-size: 1.2em;
 }
+
+
 /*
 @media (max-width: 575.98px) {
 
