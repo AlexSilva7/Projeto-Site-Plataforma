@@ -4,19 +4,48 @@
     padding: 0px;
 }
 
-header{
+#principal header{
     background: black url(../imagens/corpo1.png) right no-repeat;
     color:white;
     height: 650px;
     opacity: 0.9;
 }
 
+#contato{
+    background: white url(../imagens/bg.png);
+}
+
+#contato header{
+    height: 160px;
+}
+
+#contato #logo{
+    width: 70%;
+    height: 70%;
+}
+
+
 header #nav-principal a{
     font-size: 1.2em;
 }
 
+header #nav-principal .botaoenter{
+    margin-top: 2px;
+    font-size: 0.9em;
+}
+
+
+header #nav-principal{
+    margin-bottom: 10%;
+    padding-bottom: 5%;
+}
+
 header #nav-principal a:hover{
     border-bottom: 1px solid purple;
+}
+
+header #nav-principal .botaoenter a:hover{
+    border: none;
 }
 
 #info h4{
@@ -37,13 +66,15 @@ header #nav-principal a:hover{
     text-align: center;
 }
 
+.texto{
+    background: white;
+}
 
 footer{
     background: white;
     opacity: 0.97;
+
 }
-
-
 
 footer i{
     font-size: 1.5em;
@@ -54,31 +85,56 @@ footer p{
 }
 
 
-/*
+
 @media (max-width: 575.98px) {
 
-    #logo img{
-        height: 120px;
+    #principal header{
+        background: black;
+        opacity: 0.9;
     }
 
-    #navegacao ul li a{
-        font-size: 0.7em;
-        width: 100px;
+    #principal header #nav-principal{
+        margin-bottom: 8%;
+        padding-bottom: 0%;
     }
 
-    .introducao{
-        margin-top: 30px;
-        font-size: 0.4em;
+    #nav-principal ul{
+        margin-bottom: 0;
+        padding-bottom: 0;
     }
 
-    .empresa {
-        background-image: url(../imagens/corpo2-escrita-mobile.png);
+    #nav-principal ul li a{
+        width: 20%;
+        font-size: 1em;
     }
 
-    #formulario-contato{
-        width: 100%;
-        margin: 30px auto;
+    #logo{
+        height: 60%;
+        width: 60%;
     }
+
+    #info{
+        margin-top: 3%;
+        font-size: 0.8em;
+    }
+
+    #info .informacoes{
+        margin-left: 20px;
+    }
+
+    #saiba img{
+        margin-bottom: 10px;
+    }
+
+    footer{
+        text-align: center;
+        font-size: 0.8em;
+    }
+
+    footer #icons{
+        margin: 0 23% 10px 0;
+    }
+
 
 }
-*/
+
