@@ -11,27 +11,19 @@
     opacity: 0.9;
 }
 
+
 #contato{
     background: white url(../imagens/bg.png);
 }
 
-#contato header{
-    height: 160px;
-}
-
-#sobre header{
-    height: 160px;
-}
-
 #contato #logo{
     width: 70%;
-    height: 70%;
+    height: 100%;
 }
 
 #sobre #logo{
     width: 70%;
-    height: 70%;
-    margin-bottom: 100px;
+    height: 100%;
 }
 
 header #nav-principal a{
@@ -44,7 +36,7 @@ header #nav-principal .botaoenter{
 }
 
 
-header #nav-principal{
+#principal header #nav-principal{
     margin-bottom: 10%;
     padding-bottom: 5%;
 }
@@ -97,11 +89,6 @@ footer p{
 
 @media (max-width: 575.98px) {
 
-    #sobre button{
-        margin-bottom:150px;
-    }
-
-
     #principal header{
         background: black;
         opacity: 0.9;
@@ -148,7 +135,6 @@ footer p{
     footer #icons{
         margin: 0 23% 10px 0;
     }
-
 
 }
 
