@@ -19,11 +19,20 @@
     height: 160px;
 }
 
+#sobre header{
+    height: 160px;
+}
+
 #contato #logo{
     width: 70%;
     height: 70%;
 }
 
+#sobre #logo{
+    width: 70%;
+    height: 70%;
+    margin-bottom: 100px;
+}
 
 header #nav-principal a{
     font-size: 1.2em;
@@ -87,6 +96,11 @@ footer p{
 
 
 @media (max-width: 575.98px) {
+
+    #sobre button{
+        margin-bottom:150px;
+    }
+
 
     #principal header{
         background: black;
