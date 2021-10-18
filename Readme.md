@@ -1,6 +1,6 @@
 
 
-https://alexsilva7.github.io/Projeto-Site-Plataforma/home.html
+https://alexsilva7.github.io/Projeto-Site-Plataforma/home
 
 Construção de um site estático
 
